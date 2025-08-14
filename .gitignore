@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#uv
+uv.lock
+.python-version
+pyproject.toml
+
 # C extensions
 *.so
 
