@@ -1,11 +1,12 @@
 @echo off
+chcp 65001 >nul
 setlocal
 
 REM 要檢查的資料夾名稱
 set "folderName=Pokemon-MCP-Server"
 
 REM 要 clone 的 GitHub 連結
-set "repoUrl=https://github.com/Sachin-crypto/Pokemon-MCP-Server.git"
+set "repoUrl=https://github.com/sunfrancis12/Pokemon-MCP-Server.git"
 
 REM 取得當前目錄
 set "currentPath=%cd%"

@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "poke": {
+            "command": "fastmcp",
+            "args": [
+            "run",
+            "C:\\Users\\sunfr\\Documents\\NTCU-MCP-SummerCamp\\pokemon-mcp-server\\poke.py"
+            ]
+        }
+    }
+}
