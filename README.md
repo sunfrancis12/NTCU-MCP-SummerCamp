@@ -42,25 +42,26 @@
 > [!NOTE] 
 > .bat 檔案只需滑鼠點擊兩下即可執行
 
-> [!NOTE] 
-> NTCU-MCP-SummerCamp:.
-> |   install-pokemon-mcp.bat : 安裝 pokemon mcp server 的自動化腳本
-> |   setup-env.bat : 初始化環境及安裝所需套件自動化腳本
-> |   test-pokemon-mcp.bat : 測試 pokemon mcp server 自動化腳本
-> |
-> +---.gemini
-> |       GEMINI.md : gemini 的 system prompt 設定檔案 (本地設定檔)
-> |       settings.json : gemini cli 的 mcp server 設定檔案 (本地設定檔)
-> |
-> +---gemini_setting_example : 範例設定檔，可以直接複製內容到以上檔案
-> |       patrick.md : 派大星的 system prompt 範例
-> |       settings.json : gemini cli 的設定檔案範例
-> |       shiroko.md : 砂狼白子的 system prompt 範例
-> |
-> \---snake-game : 使用 Gemini cli 撰寫網頁貪吃蛇遊戲範例
->         index.html
->         script.js
->         style.css
+``` 
+NTCU-MCP-SummerCamp:.
+|   install-pokemon-mcp.bat : 安裝 pokemon mcp server 的自動化腳本
+|   setup-env.bat : 初始化環境及安裝所需套件自動化腳本
+|   test-pokemon-mcp.bat : 測試 pokemon mcp server 自動化腳本
+|
++---.gemini
+|       GEMINI.md : gemini 的 system prompt 設定檔案 (本地設定檔)
+|       settings.json : gemini cli 的 mcp server 設定檔案 (本地設定檔)
+|
++---gemini_setting_example : 範例設定檔，可以直接複製內容到以上檔案
+|       patrick.md : 派大星的 system prompt 範例
+|       settings.json : gemini cli 的設定檔案範例
+|       shiroko.md : 砂狼白子的 system prompt 範例
+|
+\---snake-game : 使用 Gemini cli 撰寫網頁貪吃蛇遊戲範例
+        index.html
+        script.js
+        style.css
+```
 
 
 ## 本次課程使用到的 MCP Server:
