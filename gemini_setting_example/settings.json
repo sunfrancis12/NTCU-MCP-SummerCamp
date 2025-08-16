@@ -1,11 +1,30 @@
 {
-    "mcpServers": {
-        "poke": {
-            "command": "fastmcp",
-            "args": [
-            "run",
-            "C:\\Users\\sunfr\\Documents\\NTCU-MCP-SummerCamp\\pokemon-mcp-server\\poke.py"
-            ]
-        }
+  "mcpServers": {
+    "poke": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "fastmcp",
+        "fastmcp",
+        "run",
+        "Pokemon-MCP-Server/poke.py"
+      ]
+    },
+    "opgg-mcp": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "supergateway",
+        "--streamableHttp",
+        "https://mcp-api.op.gg/mcp"
+      ]
+    },
+    "anilist": {
+      "command": "npx",
+      "args": ["-y", "anilist-mcp"]
     }
+  }
 }

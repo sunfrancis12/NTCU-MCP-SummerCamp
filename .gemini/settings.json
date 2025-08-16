@@ -1,15 +1,4 @@
 {
   "mcpServers": {
-    "poke": {
-      "command": "uv",
-      "args": [
-        "run",
-        "--with",
-        "fastmcp",
-        "fastmcp",
-        "run",
-        "C:\\Users\\sunfrancis12\\Desktop\\schoolwork\\NTCU-MCP-SummerCamp\\Pokemon-MCP-Server\\poke.py"
-      ]
-    }
   }
 }
