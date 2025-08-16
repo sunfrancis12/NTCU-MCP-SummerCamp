@@ -17,7 +17,7 @@
 - MCP Server, AI agent, Prompt 的初步認識
   - user prompt, system prompt
   - 透過 system prompt 進行角色扮演
-  - 了解 CP Server 與 AI agent 和 LLM 的關係
+  - 了解 MCP Server 與 AI agent 和 LLM 的關係
 - MCP Server 的搭建與安裝
   - 使用 python 建置一個 MCP Server (Fastmcp)
   - 使用 mcp inspector 測試 MCP Server
@@ -25,6 +25,40 @@
 - 加入其他人寫的 MCP 到 Gemini CLI
   - 如何查看官方說明
   - 根據官方指示進行安裝
+ 
+## 事前安裝環境
+
+:::info
+課程簡報包含安裝教學以及所需指令
+:::
+
+- nodejs
+- gemini cli (透過 nodejs 安裝)
+- mcp inspector (透過 nodejs 安裝)
+- uv
+- git
+- python (建議 3.11 以上)
+
+## 專案檔案說明
+
+C:.
+│   install-pokemon-mcp.bat : 安裝 pokemon mcp server
+│   setup-env.bat : 初始化環境及安裝所需套件
+│   test-pokemon-mcp.bat : 測試 pokemon mcp server
+│
+├───.gemini
+│       GEMINI.md : gemini 的 system prompt 設定檔案 (本地設定檔)
+│       settings.json : gemini cli 的 mcp server 設定檔案 (本地設定檔)
+│
+├───gemini_setting_example : 範例設定檔，可以直接複製內容到以上檔案
+│       patrick.md : 派大星的 system prompt 範例
+│       settings.json : gemini cli 的設定檔案範例
+│       shiroko.md : 砂狼白子的 system prompt 範例
+│
+└───snake-game : 使用 Gemini cli 撰寫網頁貪吃蛇遊戲範例
+        index.html
+        script.js
+        style.css
 
 ## 本次課程使用到的 MCP Server:
 
