@@ -1,4 +1,35 @@
-## 一些跟 LLM 互動的例子:
- - [幾A幾B遊戲](https://claude.ai/public/artifacts/0e6155e4-15ef-4505-b982-a94f7e027308)
+# NCTU-MCP-SummerCamp
+
+## 課程目的
+
+一個針對沒有任何資訊背景的 Gemini CLI + MCP 教學課程。 本課程講授於 2025 臺中教育大學的高中生暑期營隊
+
+## 簡報連結
+
+[課程簡報](https://docs.google.com/presentation/d/1kSk76oPDqJ85kIR1wgpE-4qRHHKkrOVKJFqDKCh9I04/edit?usp=sharing)
+
+## 課程簡介
+
+再本課程中，你會學會
+- LLM 的基本介紹以及 Gemini CLI 的使用方法
+ - LLM 的原理
+ - 使用 Gemini CLI 寫程式
+- MCP Server, AI agent, Prompt 的初步認識
+ - user prompt, system prompt
+ - 透過 system prompt 進行角色扮演
+ - 了解 CP Server 與 AI agent 和 LLM 的關係
+- MCP Server 的搭建與安裝
+ - 使用 python 建置一個 MCP Server (Fastmcp)
+ - 使用 mcp inspector 測試 MCP Server
+ - 新增設定讓 Gemini CLI 可以使用 MCP Server 
+- 加入其他人寫的 MCP 到 Gemini CLI
+ - 如何查看官方說明
+ - 根據官方指示進行安裝
+
+## 本次課程使用到的 MCP Server:
 
 pokemon example MCP server is from [@Sachin-crypto/Pokemon-MCP-Server](https://github.com/Sachin-crypto/Pokemon-MCP-Server) github repo
+OP.GG example MCP server is from [opgginc@OP.GG MCP Server](https://github.com/opgginc/opgg-mcp) github repo
+Anilist example MCP server is from [yuna0x0@anilist-mcp](https://github.com/yuna0x0/anilist-mcp) github repo
+Anilist example MCP server is from [yuniko@minecraft-mcp-server](https://github.com/yuniko-software/minecraft-mcp-server) github repo
+
