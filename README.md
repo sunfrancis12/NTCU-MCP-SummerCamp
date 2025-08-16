@@ -12,19 +12,19 @@
 
 再本課程中，你會學會
 - LLM 的基本介紹以及 Gemini CLI 的使用方法
- - LLM 的原理
- - 使用 Gemini CLI 寫程式
+  - LLM 的原理
+  - 使用 Gemini CLI 寫程式
 - MCP Server, AI agent, Prompt 的初步認識
- - user prompt, system prompt
- - 透過 system prompt 進行角色扮演
- - 了解 CP Server 與 AI agent 和 LLM 的關係
+  - user prompt, system prompt
+  - 透過 system prompt 進行角色扮演
+  - 了解 CP Server 與 AI agent 和 LLM 的關係
 - MCP Server 的搭建與安裝
- - 使用 python 建置一個 MCP Server (Fastmcp)
- - 使用 mcp inspector 測試 MCP Server
- - 新增設定讓 Gemini CLI 可以使用 MCP Server 
+  - 使用 python 建置一個 MCP Server (Fastmcp)
+  - 使用 mcp inspector 測試 MCP Server
+  - 新增設定讓 Gemini CLI 可以使用 MCP Server 
 - 加入其他人寫的 MCP 到 Gemini CLI
- - 如何查看官方說明
- - 根據官方指示進行安裝
+  - 如何查看官方說明
+  - 根據官方指示進行安裝
 
 ## 本次課程使用到的 MCP Server:
 
