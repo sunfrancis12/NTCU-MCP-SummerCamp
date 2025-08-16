@@ -66,11 +66,8 @@ NTCU-MCP-SummerCamp:.
 
 ## 本次課程使用到的 MCP Server:
 
-pokemon example MCP server is from [@Sachin-crypto/Pokemon-MCP-Server](https://github.com/Sachin-crypto/Pokemon-MCP-Server) github repo
-
-OP.GG example MCP server is from [opgginc@OP.GG MCP Server](https://github.com/opgginc/opgg-mcp) github repo
-
-Anilist example MCP server is from [yuna0x0@anilist-mcp](https://github.com/yuna0x0/anilist-mcp) github repo
-
-Anilist example MCP server is from [yuniko@minecraft-mcp-server](https://github.com/yuniko-software/minecraft-mcp-server) github repo
+- pokemon example MCP server is from [@Sachin-crypto/Pokemon-MCP-Server](https://github.com/Sachin-crypto/Pokemon-MCP-Server) github repo
+- OP.GG example MCP server is from [opgginc@OP.GG MCP Server](https://github.com/opgginc/opgg-mcp) github repo
+- Anilist example MCP server is from [yuna0x0@anilist-mcp](https://github.com/yuna0x0/anilist-mcp) github repo
+- Minecraft example MCP server is from [yuniko@minecraft-mcp-server](https://github.com/yuniko-software/minecraft-mcp-server) github repo
 
